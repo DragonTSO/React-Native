@@ -1,0 +1,15 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "userName": "DragonDirt",
+            "password": "123",
+            "firtName": "Huy",
+            "lastName": "Hoàng",
+            "email": "hoangdhph19515@gmail.com",
+            "gender": "Male",
+            "createDate": "18/01/2003",
+            "updateDate": "18/01/2023"
+        }
+    ]
+}
