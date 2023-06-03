@@ -1,35 +1,27 @@
-import React from "react";
-import { StyleSheet,View,TextInput} from "react-native";
+import { Text, StyleSheet, Pressable } from 'react-native';
+import React from 'react';
 
-const CustomInput = ({ placeholder, value, setValue, secureTextEntry }) => {
+const CustomButton = ({ btnLabel, onPress }) => {
     return (
-        <View style={styles.container}>
-            <TextInput
-                autoCapitalize='none'
-                style={styles.input}
-                placeholder={placeholder}
-                value={value}
-                onChangeText={setValue}
-                secureTextEntry={secureTextEntry}
-            />
-        </View>
+        <Pressable style={styles.container} onPress={onPress}>
+            <Text style={styles.text}>{btnLabel}</Text>
+        </Pressable>
     );
 };
 
-export default CustomInput;
-
 const styles = StyleSheet.create({
     container: {
-        backgroundColor: 'white',
+        backgroundColor: '#3B71F3',
         width: '100%',
-        borderColor: '#e8e8e8',
-        borderWidth: 1,
-        borderRadius: 5,
-        paddingHorizontal: 10,
-        marginVertical: 5
+        padding: 15,
+        marginVertical: 5,
+        alignItems: 'center',
+        borderRadius: 5
     },
-    input: {
-        width: '80%',
-        height: 50
+    text: {
+        fontWeight: 'bold',
+        color: 'white'
     }
 });
+
+export default CustomButton;
