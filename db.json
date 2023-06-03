@@ -2,12 +2,84 @@
     "users": [
         {
             "id": 1,
-            "userName": "DragonDirt",
+            "userName": "hoangdh18",
             "password": "123",
-            "firtName": "Huy",
-            "lastName": "Hoàng",
-            "email": "hoangdhph19515@gmail.com",
+            "firtName": "Hoàng",
+            "middleName": "Huy",
+            "lastName": "Đoàn",
+            "role": "ADMIN",
+            "email": "hoangdhph19515@fpt.edu.vn",
             "gender": "Male",
+            "createDate": "17/09/2023",
+            "updateDate": "17/09/2023"
+        },
+        {
+            "id": 2,
+            "userName": "hoangdh19",
+            "password": "123",
+            "firtName": "Hoàng",
+            "middleName": "Huy",
+            "lastName": "Đoàn",
+            "role": "STAFF",
+            "email": "hoangdhph19515@fpt.edu.vn",
+            "gender": "Male",
+            "createDate": "17/09/2023",
+            "updateDate": "17/09/2023"
+        }
+    ],
+    "students": [
+        {
+            "studentId": "PH19515",
+            "fullName": "Đoàn Huy Hoàng",
+            "userName": "Zun",
+            "password": "1",
+            "email": "hoangdhph19515@fpt.edu.vn",
+            "gender": "Male",
+            "dateOfBirth": "18/01/2003",
+            "createDate": "18/01/2003",
+            "updateDate": "18/01/2023"
+        },
+        {
+            "studentId": "PH44374",
+            "fullName": "Nguyễn Diệu Linh",
+            "userName": "Linh",
+            "password": "1",
+            "email": "linhndph4374@fpt.edu.vn",
+            "gender": "Female",
+            "dateOfBirth": "02/11/2003",
+            "createDate": "18/01/2003",
+            "updateDate": "18/01/2023"
+        },
+        {
+            "studentId": "PH19489",
+            "fullName": "Đoàn Đình Thế Long",
+            "userName": "Long",
+            "password": "1",
+            "email": "longddt@gmail.com",
+            "gender": "Male",
+            "dateOfBirth": "17/09/1994",
+            "createDate": "18/01/2003",
+            "updateDate": "18/01/2023"
+        },
+        {
+            "studentId": "PH19489",
+            "fullName": "Đoàn Đình Thế Long",
+            "userName": "Long",
+            "password": "1",
+            "email": "longddt@gmail.com",
+            "gender": "Male",
+            "dateOfBirth": "17/09/1994",
+            "createDate": "18/01/2003",
+            "updateDate": "18/01/2023"
+        },
+        {
+            "studentId": "PH44374",
+            "fullName": "Nguyễn Diệu Linh",
+            "userName": "Linh",
+            "password": "1",
+            "email": "linhndph4374@fpt.edu.vn",
+            "gender": "Female",
+            "dateOfBirth": "02/11/2003",
             "createDate": "18/01/2003",
             "updateDate": "18/01/2023"
         }
